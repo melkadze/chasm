@@ -1,4 +1,4 @@
-# CodePath-Group1-iOS-Project
+# CodePath-Group1-iOS-Project (Georgina W, Deondrae F, Kazi M, Nick M)
 
 Original App Design Project - README Template
 ===
