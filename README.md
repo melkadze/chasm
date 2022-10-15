@@ -100,8 +100,6 @@ info so they can identify it.
 
 ## Wireframes
 
-![Launch Screen]("https://imgur.com/1FpJWh5")
-
 <img src="https://imgur.com/1FpJWh5" width=600>
 
 <img src="https://imgur.com/c8S508i" width=600>
