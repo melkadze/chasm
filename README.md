@@ -1,6 +1,6 @@
 # CodePath-Group1-iOS-Project (Georgina W, Deondrae F, Kazi M, Nick M)
 
-Original App Design Project - README Template
+Original App Design Project
 ===
 
 # Chasm
@@ -19,7 +19,6 @@ Users upload a picture of a rock, and tag it with identifying variables like col
 the top 5 rocks that match those descriptions along with photos and additional info so they can identify it.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social Networking / Science
 - **Mobile:** We would have this app be mobile-first, and there is a good reason for this: support for taking pictures. This will not work as well on desktops/laptops, so we will leverage the benefits of having a mobile device.
 - **Story:** Allows those who are interested in rocks to share their findings, and comment on those of others.
@@ -112,8 +111,6 @@ the top 5 rocks that match those descriptions along with photos and additional i
 
 
 ### [x] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 ### Models
