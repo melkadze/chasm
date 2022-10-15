@@ -99,8 +99,12 @@ info so they can identify it.
    * Profile
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+<img src="https://imgur.com/1FpJWh5" width=600>
+
+<img src="https://imgur.com/c8S508i" width=600>
+
+<img src="https://imgur.com/zryX4nm" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
