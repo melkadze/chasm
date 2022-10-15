@@ -69,6 +69,8 @@ info so they can identify it.
    * Search by tags or name for specific things
    * Quiz section on the bottom of the screen in case the user wants to take it
    * A scrollable object that will put random posts form other users
+* Capture Screen
+   * Shows camera view to capture and post an image, with a caption
 
 ### 3. Navigation
 
