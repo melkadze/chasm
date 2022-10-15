@@ -99,7 +99,7 @@ info so they can identify it.
    * Profile
 
 ## Wireframes
-
+![Launch Screen] (https://imgur.com/a/lr8XAZ4"Launch Screen")
 <img src="" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
