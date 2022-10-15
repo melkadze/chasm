@@ -100,7 +100,7 @@ info so they can identify it.
 
 ## Wireframes
 
-![Oopsie Doopsie, image link breaky](https://imgur.com/a/lr8XAZ4.jpg)
+![Oopsie Doopsie, image link breaky](https://i.imgur.com/L6qe4IS.png)
 
 
 ### [BONUS] Digital Wireframes & Mockups
