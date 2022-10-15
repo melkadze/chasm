@@ -17,19 +17,18 @@ Original App Design Project - README Template
 Users upload a picture of a rock, and tag it with identifying variables like color 
 (light or dark), luster (metallic or non metallic), cleavage (how it breaks into 
 pieces, poor cleavage just means crumbly, good cleavage would be distinct angles 
-like x2 90 deg or a 120 and a 60 deg angle). From there, we pull like, the top 5 
-rocks that match those descriptions along with photos and additional info so they 
-can identify it. I have not found a good API for that so I'll need some help 
-figuring out how to pull images with certain tags down. 
+like x2 90 deg or a 120 and a 60 deg angle). From there, we pull, for instance,
+the top 5 rocks that match those descriptions along with photos and additional
+info so they can identify it.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Social Networking / Science
+- **Mobile:** We would have this app be mobile-first, and there is a good reason for this: support for taking pictures. This will not work as well on desktops/laptops, so we will leverage the benefits of having a mobile device.
+- **Story:** Allows those who are interested in rocks to share their findings, and comment on those of others.
+- **Market:** This app can cater to those who are well informed about rocks, as well as to those who are just getting started with a little bit of interest in the topic -- as our app will certainly grow that interest.
+- **Habit:** The app can be used as often as the user utilizes their other social media apps, whether that be multiple times a day or a couple times a week. Since it has a scrollable feed that users can browse to catch up on all they've missed, there is no need to check it constantly.
+- **Scope:** We would first start with creating an Instagram-like app, similar to the Parstagram app we've already built, and then add the categorization features which are specific to rocks. Later on, we will add other features that build on these such as identifying the rocks.
 
 ## Product Spec
 
@@ -51,7 +50,7 @@ figuring out how to pull images with certain tags down.
 
 * View your own profile
 * Leaderboard for quiz game
-*Follow other users
+* Follow other users
 
 ### 2. Screen Archetypes
 
