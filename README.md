@@ -15,11 +15,8 @@ Original App Design Project - README Template
 ### Description
 
 Users upload a picture of a rock, and tag it with identifying variables like color 
-(light or dark), luster (metallic or non metallic), cleavage (how it breaks into 
-pieces, poor cleavage just means crumbly, good cleavage would be distinct angles 
-like x2 90 deg or a 120 and a 60 deg angle). From there, we pull, for instance,
-the top 5 rocks that match those descriptions along with photos and additional
-info so they can identify it.
+(light or dark), luster (metallic or non metallic), and cleavage. From there, we pull, for instance,
+the top 5 rocks that match those descriptions along with photos and additional info so they can identify it.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -98,7 +95,7 @@ info so they can identify it.
    * Feed
    * Profile
 
-## Wireframes
+## [Digital] Wireframes
 ### Launch Screen and Login
 
 ![Oopsie Doopsie, image link breaky](https://i.imgur.com/L6qe4IS.png)
@@ -114,7 +111,7 @@ info so they can identify it.
 
 
 
-### [BONUS] Digital Wireframes & Mockups
+### [x] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
