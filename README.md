@@ -99,8 +99,9 @@ info so they can identify it.
    * Profile
 
 ## Wireframes
-![Launch Screen](https://imgur.com/a/lr8XAZ4 "Launch Screen")
-<img src="" width=600>
+
+![Oopsie Doopsie, image link breaky](https://imgur.com/a/lr8XAZ4.jpg)
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
