@@ -1,4 +1,6 @@
-# CodePath-Group1-iOS-Project (Georgina W, Deondrae F, Kazi M, Nick M)
+# CodePath-Group1-iOS-Project (chasm)
+
+## By Georgina W, Deondrae F, Kazi M, and Nick M
 
 Original App Design Project
 ===
