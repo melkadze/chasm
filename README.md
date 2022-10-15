@@ -99,9 +99,15 @@ info so they can identify it.
    * Profile
 
 ## Wireframes
+Launch Screen and Login
 
 ![Oopsie Doopsie, image link breaky](https://i.imgur.com/L6qe4IS.png)
+
+Feed, Explore, and Profile
+
 ![Oopsie Doopsie, image link breaky](https://i.imgur.com/cbEN7rM.png)
+
+Post Screen
 ![Oopsie Doopsie, image link breaky](https://i.imgur.com/bxaGgwD.png)
 
 
