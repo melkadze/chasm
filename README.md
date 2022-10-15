@@ -100,11 +100,11 @@ info so they can identify it.
 
 ## Wireframes
 
-<img src="https://imgur.com/1FpJWh5" width=600>
+<img src="https://imgur.com/gallery/rKOgrPy" width=600>
 
-<img src="https://imgur.com/c8S508i" width=600>
+<img src="https://imgur.com/gallery/ybprP9J" width=600>
 
-<img src="https://imgur.com/zryX4nm" width=600>
+<img src="https://imgur.com/gallery/FYB4jat" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
