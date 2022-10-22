@@ -130,6 +130,8 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
+   | delete        | Boolean | deletes Post |
+   | HidePost      | Boolean | Pointer to another Parse Object(User) Hides post from user or users |
 #### User
 
    | Property      | Type     | Description |
