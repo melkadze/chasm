@@ -126,6 +126,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | caption       | String   | image caption by author |
    | commentsCount | Number   | number of comments that has been posted to an image |
    | RemoveLikes   | Boolean  | removes like from the Post |
+   | deletecomment | Boolean | deletes comment |
    | tags          | Array<String>   | list of tags for the post |
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
@@ -146,7 +147,35 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
-
+   - Home Feed Screen
+      - (Read/GET) Query all posts where user is author
+         ```swift
+         let query = PFQuery(className:"Post")
+         query.whereKey("author", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+            if let error = error { 
+               print(error.localizedDescription)
+            } else if let posts = posts {
+               print("Successfully retrieved \(posts.count) posts.")
+           // TODO: Do something with posts...
+            }
+         }
+         ```
+      - (Create/POST) Create a new like on a post
+      - (Delete) Delete existing like
+      - (Create/POST) Create a new comment on a post
+      - (Delete) Delete existing comment
+      - (Hide) Hide existing comment or Post
+   - Create Post Screen
+      - (Create/POST) Create a new post object
+   - Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
+      - (Display) Count of Followed Users
+      - (Display) Amount of Likes on Profile
+  
+ Base Url -
   | HTTP Verb     | Endpoint | Description |
   | ------------- | -------- | ------------|
   
