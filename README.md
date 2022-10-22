@@ -146,7 +146,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | createdAt     | DateTime | date when post is created (default field) |
    | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
-  Base Url -
+
   | HTTP Verb      | Endpoint     | Description |
   
 - [Add list of network requests by screen ]
