@@ -125,7 +125,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | image         | File     | image that user posts |
    | caption       | String   | image caption by author |
    | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
+   | RemoveLikes   | Boolean  | removes like from the Post |
    | tags          | Array<String>   | list of tags for the post |
    | likesCount    | Number   | number of likes for the post |
    | createdAt     | DateTime | date when post is created (default field) |
@@ -140,6 +140,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | name          | String   | string of username |
    | followersCount | Number  | number of followers |
    | followingCount | Number  | number of users followed |
+   | UnFollowAccount | Boolean  | if true unfollow Acount and a Pointer to User |
    | rockCount     | Number  | number of rocks posted |
    | bio           | String   | bio by author |
    | createdAt     | DateTime | date when post is created (default field) |
