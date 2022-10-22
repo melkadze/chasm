@@ -166,14 +166,14 @@ the top 5 rocks that match those descriptions along with photos and additional i
       - (Delete) Delete existing like
       - (Create/POST) Create a new comment on a post
       - (Delete) Delete existing comment
-      - (Hide) Hide existing comment or Post
+      - (Update/GET) Hide existing comment or Post
    - Create Post Screen
       - (Create/POST) Create a new post object
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
-      - (Display) Count of Followed Users
-      - (Display) Amount of Likes on Profile
+      - (Update/GET) Count of Followed Users
+      - (Update/GET) Amount of Likes on Profile
   
  Base Url -
   | HTTP Verb     | Endpoint | Description |
