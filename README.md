@@ -147,7 +147,8 @@ the top 5 rocks that match those descriptions along with photos and additional i
    | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
 
-  | HTTP Verb      | Endpoint     | Description |
+  | HTTP Verb     | Endpoint | Description |
+  | ------------- | -------- | ------------|
   
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
