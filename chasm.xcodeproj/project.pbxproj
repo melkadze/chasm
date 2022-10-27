@@ -64,7 +64,7 @@
 				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
 				C5049281290A51C300312E40 /* Info.plist */,
 			);
-			path = chasm;
+			name = chasm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
