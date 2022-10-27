@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5049270290A51C200312E40 /* chasm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chasm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5049270290A51C200312E40 /* Chasm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chasm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5049273290A51C200312E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5049275290A51C200312E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C5049277290A51C200312E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C5049271290A51C200312E40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5049270290A51C200312E40 /* chasm.app */,
+				C5049270290A51C200312E40 /* Chasm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C504926F290A51C200312E40 /* chasm */ = {
+		C504926F290A51C200312E40 /* Chasm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5049284290A51C300312E40 /* Build configuration list for PBXNativeTarget "chasm" */;
+			buildConfigurationList = C5049284290A51C300312E40 /* Build configuration list for PBXNativeTarget "Chasm" */;
 			buildPhases = (
 				C504926C290A51C200312E40 /* Sources */,
 				C504926D290A51C200312E40 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = chasm;
+			name = Chasm;
 			productName = chasm;
-			productReference = C5049270290A51C200312E40 /* chasm.app */;
+			productReference = C5049270290A51C200312E40 /* Chasm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C504926B290A51C200312E40 /* Build configuration list for PBXProject "chasm" */;
+			buildConfigurationList = C504926B290A51C200312E40 /* Build configuration list for PBXProject "Chasm" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C504926F290A51C200312E40 /* chasm */,
+				C504926F290A51C200312E40 /* Chasm */,
 			);
 		};
 /* End PBXProject section */
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C504926B290A51C200312E40 /* Build configuration list for PBXProject "chasm" */ = {
+		C504926B290A51C200312E40 /* Build configuration list for PBXProject "Chasm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5049282290A51C300312E40 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5049284290A51C300312E40 /* Build configuration list for PBXNativeTarget "chasm" */ = {
+		C5049284290A51C300312E40 /* Build configuration list for PBXNativeTarget "Chasm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5049285290A51C300312E40 /* Debug */,
