@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,12 @@
 		C504927B290A51C200312E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5049279290A51C200312E40 /* Main.storyboard */; };
 		C504927D290A51C300312E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C504927C290A51C300312E40 /* Assets.xcassets */; };
 		C5049280290A51C300312E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504927E290A51C300312E40 /* LaunchScreen.storyboard */; };
+		F79E3521317B170CA2624B0D /* Pods_Chasm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7909B9DA78B7DCDB2982F140 /* Pods-Chasm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chasm.release.xcconfig"; path = "Target Support Files/Pods-Chasm/Pods-Chasm.release.xcconfig"; sourceTree = "<group>"; };
+		9FBBE4987BBFF06A3EA32462 /* Pods-Chasm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chasm.debug.xcconfig"; path = "Target Support Files/Pods-Chasm/Pods-Chasm.debug.xcconfig"; sourceTree = "<group>"; };
 		C5049270290A51C200312E40 /* Chasm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chasm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5049273290A51C200312E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5049275290A51C200312E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C504927C290A51C300312E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C504927F290A51C300312E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5049281290A51C300312E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chasm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79E3521317B170CA2624B0D /* Pods_Chasm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2C9A66448D9C55F50478DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE5DB96B744CF433702515C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBE4987BBFF06A3EA32462 /* Pods-Chasm.debug.xcconfig */,
+				7909B9DA78B7DCDB2982F140 /* Pods-Chasm.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C5049267290A51C200312E40 = {
 			isa = PBXGroup;
 			children = (
 				C5049272290A51C200312E40 /* chasm */,
 				C5049271290A51C200312E40 /* Products */,
+				BE5DB96B744CF433702515C3 /* Pods */,
+				B2C9A66448D9C55F50478DBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5049284290A51C300312E40 /* Build configuration list for PBXNativeTarget "Chasm" */;
 			buildPhases = (
+				E5AD3D23353F62E2A78B74C7 /* [CP] Check Pods Manifest.lock */,
 				C504926C290A51C200312E40 /* Sources */,
 				C504926D290A51C200312E40 /* Frameworks */,
 				C504926E290A51C200312E40 /* Resources */,
+				4CAEC50F4CF105A49A5A1037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = C504926B290A51C200312E40 /* Build configuration list for PBXProject "Chasm" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CAEC50F4CF105A49A5A1037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chasm/Pods-Chasm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chasm/Pods-Chasm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chasm/Pods-Chasm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AD3D23353F62E2A78B74C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chasm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C504926C290A51C200312E40 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		C5049285290A51C300312E40 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBBE4987BBFF06A3EA32462 /* Pods-Chasm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +382,7 @@
 		};
 		C5049286290A51C300312E40 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7909B9DA78B7DCDB2982F140 /* Pods-Chasm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
