@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		C5049274290A51C200312E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5049273290A51C200312E40 /* AppDelegate.swift */; };
 		C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5049275290A51C200312E40 /* SceneDelegate.swift */; };
-		C5049278290A51C200312E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5049277290A51C200312E40 /* ViewController.swift */; };
 		C504927B290A51C200312E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5049279290A51C200312E40 /* Main.storyboard */; };
 		C504927D290A51C300312E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C504927C290A51C300312E40 /* Assets.xcassets */; };
 		C5049280290A51C300312E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504927E290A51C300312E40 /* LaunchScreen.storyboard */; };
+		C569637B290A569600B6FCCA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569637A290A569600B6FCCA /* LoginViewController.swift */; };
+		C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569637C290A56AD00B6FCCA /* FeedViewController.swift */; };
 		F79E3521317B170CA2624B0D /* Pods_Chasm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +23,12 @@
 		C5049270290A51C200312E40 /* Chasm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chasm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5049273290A51C200312E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5049275290A51C200312E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5049277290A51C200312E40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C504927A290A51C200312E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C504927C290A51C300312E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C504927F290A51C300312E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5049281290A51C300312E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C569637A290A569600B6FCCA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C569637C290A56AD00B6FCCA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chasm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,7 +58,6 @@
 				9FBBE4987BBFF06A3EA32462 /* Pods-Chasm.debug.xcconfig */,
 				7909B9DA78B7DCDB2982F140 /* Pods-Chasm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -83,8 +84,9 @@
 			children = (
 				C5049273290A51C200312E40 /* AppDelegate.swift */,
 				C5049275290A51C200312E40 /* SceneDelegate.swift */,
-				C5049277290A51C200312E40 /* ViewController.swift */,
 				C5049279290A51C200312E40 /* Main.storyboard */,
+				C569637A290A569600B6FCCA /* LoginViewController.swift */,
+				C569637C290A56AD00B6FCCA /* FeedViewController.swift */,
 				C504927C290A51C300312E40 /* Assets.xcassets */,
 				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
 				C5049281290A51C300312E40 /* Info.plist */,
@@ -207,8 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5049278290A51C200312E40 /* ViewController.swift in Sources */,
+				C569637B290A569600B6FCCA /* LoginViewController.swift in Sources */,
 				C5049274290A51C200312E40 /* AppDelegate.swift in Sources */,
+				C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */,
 				C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = chasm/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -389,7 +392,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = chasm/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
