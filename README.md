@@ -36,21 +36,21 @@ the top 5 rocks that match those descriptions along with photos and additional i
 
 - [x] Login
 - [x] Sign up
-- [] Sign Out
-- [] Ability to post pictures
-- [] Ability to tag pictures with labels
-- [] Caption pictures
-- [] Like pictures
-- [] Comment on pictures
-- [] Search for specific tags
-- [] Identify something based on information submitted
-- [] Quiz game
+- [ ] Sign Out
+- [ ] Ability to post pictures
+- [ ] Ability to tag pictures with labels
+- [ ] Caption pictures
+- [ ] Like pictures
+- [ ] Comment on pictures
+- [ ] Search for specific tags
+- [ ] Identify something based on information submitted
+- [ ] Quiz game
 
 **Optional Nice-to-have Stories**
 
-- [] View your own profile
-- [] Leaderboard for quiz game
-- [] Follow other users
+- [ ] View your own profile
+- [ ] Leaderboard for quiz game
+- [ ] Follow other users
 
 ### 2. Screen Archetypes
 
