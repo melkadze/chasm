@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61D3506A290B7E9700D9A164 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D35069290B7E9700D9A164 /* CameraViewController.swift */; };
+		61D3506C290B890500D9A164 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3506B290B890400D9A164 /* PostCell.swift */; };
 		C5049274290A51C200312E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5049273290A51C200312E40 /* AppDelegate.swift */; };
 		C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5049275290A51C200312E40 /* SceneDelegate.swift */; };
 		C504927B290A51C200312E40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5049279290A51C200312E40 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61D35069290B7E9700D9A164 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		61D3506B290B890400D9A164 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7909B9DA78B7DCDB2982F140 /* Pods-Chasm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chasm.release.xcconfig"; path = "Target Support Files/Pods-Chasm/Pods-Chasm.release.xcconfig"; sourceTree = "<group>"; };
 		9FBBE4987BBFF06A3EA32462 /* Pods-Chasm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chasm.debug.xcconfig"; path = "Target Support Files/Pods-Chasm/Pods-Chasm.debug.xcconfig"; sourceTree = "<group>"; };
 		C5049270290A51C200312E40 /* Chasm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chasm.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,8 @@
 				C504927C290A51C300312E40 /* Assets.xcassets */,
 				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
 				C5049281290A51C300312E40 /* Info.plist */,
+				61D35069290B7E9700D9A164 /* CameraViewController.swift */,
+				61D3506B290B890400D9A164 /* PostCell.swift */,
 			);
 			name = chasm;
 			sourceTree = "<group>";
@@ -210,9 +216,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C569637B290A569600B6FCCA /* LoginViewController.swift in Sources */,
+				61D3506A290B7E9700D9A164 /* CameraViewController.swift in Sources */,
 				C5049274290A51C200312E40 /* AppDelegate.swift in Sources */,
 				C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */,
 				C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */,
+				61D3506C290B890500D9A164 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +375,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +407,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
