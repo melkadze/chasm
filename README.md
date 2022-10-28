@@ -46,6 +46,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
 - [ ] Search for specific tags
 - [ ] Identify something based on information submitted
 - [ ] Quiz game
+- [x] Creation of Loading Screen and App Icon Assets
 
 **Optional Nice-to-have Stories**
 
