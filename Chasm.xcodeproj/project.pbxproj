@@ -16,6 +16,7 @@
 		C5049280290A51C300312E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C504927E290A51C300312E40 /* LaunchScreen.storyboard */; };
 		C569637B290A569600B6FCCA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569637A290A569600B6FCCA /* LoginViewController.swift */; };
 		C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569637C290A56AD00B6FCCA /* FeedViewController.swift */; };
+		EA3C75BA290D1C820011424F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C75B9290D1C820011424F /* CommentCell.swift */; };
 		F79E3521317B170CA2624B0D /* Pods_Chasm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		C569637A290A569600B6FCCA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C569637C290A56AD00B6FCCA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chasm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C75B9290D1C820011424F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,16 +88,17 @@
 		C5049272290A51C200312E40 /* chasm */ = {
 			isa = PBXGroup;
 			children = (
+				C5049279290A51C200312E40 /* Main.storyboard */,
 				C5049273290A51C200312E40 /* AppDelegate.swift */,
 				C5049275290A51C200312E40 /* SceneDelegate.swift */,
-				C5049279290A51C200312E40 /* Main.storyboard */,
+				EA3C75B9290D1C820011424F /* CommentCell.swift */,
+				61D35069290B7E9700D9A164 /* CameraViewController.swift */,
 				C569637A290A569600B6FCCA /* LoginViewController.swift */,
 				C569637C290A56AD00B6FCCA /* FeedViewController.swift */,
-				C504927C290A51C300312E40 /* Assets.xcassets */,
-				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
-				C5049281290A51C300312E40 /* Info.plist */,
-				61D35069290B7E9700D9A164 /* CameraViewController.swift */,
 				61D3506B290B890400D9A164 /* PostCell.swift */,
+				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
+				C504927C290A51C300312E40 /* Assets.xcassets */,
+				C5049281290A51C300312E40 /* Info.plist */,
 			);
 			name = chasm;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */,
 				C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */,
 				61D3506C290B890500D9A164 /* PostCell.swift in Sources */,
+				EA3C75BA290D1C820011424F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

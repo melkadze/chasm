@@ -8,5 +8,5 @@ target 'Chasm' do
   # Pods for Chasm
   pod 'Parse'
   pod 'AlamofireImage'
-
+  pod "MessageInputBar"
 end

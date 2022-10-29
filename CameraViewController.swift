@@ -3,7 +3,7 @@
 //  Chasm
 //
 //  Created by odell francis on 10/27/22.
-//
+//  Updated by Georgina Woo on 10/28/22.
 
 import UIKit
 import Parse
@@ -16,6 +16,9 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     @IBOutlet weak var commentField: UITextField!
     
+    @IBAction func onCancelButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     @IBAction func onSubmitButton(_ sender: Any) {
         
         let post = PFObject(className: "Posts")//A new table/ catagory
@@ -34,7 +37,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
                 print("post saved!")
             }
             else{
-                print("errpr post did not save")
+                print("error post did not save")
             }
         }
         
@@ -62,7 +65,8 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         let image = info[.editedImage] as! UIImage//dictionary cast
         
         let size = CGSize(width: 300, height: 300)//Allow for resizing
-        let scaledImage = image.af_imageScaled(to: size)
+        let scaledImage = image.af.imageAspectScaled(toFill: size)
+        //let scaledImage = image.af.imageScaled(to: size)
         
         imageView.image = scaledImage //sets the image to display in the current imageView
         

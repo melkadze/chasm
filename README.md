@@ -36,13 +36,13 @@ the top 5 rocks that match those descriptions along with photos and additional i
 
 - [x] Login
 - [x] Sign up
-- [ ] Sign Out
-- [ ] Ability to post pictures
-- [ ] Ability to post to Feed
+- [x] Sign Out
+- [x] Ability to post pictures
+- [x] Ability to post to Feed
 - [ ] Ability to tag pictures with labels
 - [x] Caption pictures
 - [ ] Like pictures
-- [ ] Comment on pictures
+- [x] Comment on pictures
 - [ ] Search for specific tags
 - [ ] Identify something based on information submitted
 - [ ] Quiz game
