@@ -37,7 +37,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
 - [x] Login
 - [x] Sign up
 - [ ] Sign Out
-- [x] Ability to post pictures
+- [ ] Ability to post pictures
 - [ ] Ability to post to Feed
 - [ ] Ability to tag pictures with labels
 - [x] Caption pictures
