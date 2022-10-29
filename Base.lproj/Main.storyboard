@@ -129,7 +129,7 @@
                                             <outlet property="usernameLabel" destination="LZb-f7-OjX" id="cyd-9g-PIb"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="47" id="o3o-11-mla" customClass="CommentCell" customModule="Pastagram" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="47" id="o3o-11-mla" customClass="CommentCell" customModule="Chasm" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="508.66666603088379" width="413" height="47"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o3o-11-mla" id="cNA-A6-6bN">
@@ -148,6 +148,10 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="favor-icon" translatesAutoresizingMaskIntoConstraints="NO" id="mvO-Sq-0uO">
+                                                    <rect key="frame" x="331" y="0.0" width="37" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="oxg-5K-Hhl" firstAttribute="leading" secondItem="hGY-la-8zx" secondAttribute="trailing" constant="8" id="4C5-0G-wqL"/>
@@ -291,6 +295,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="favor-icon" width="30" height="30"/>
         <image name="rockplaceholderog" width="375.33334350585938" height="375.33334350585938"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
