@@ -48,10 +48,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         commentBar.inputTextView.placeholder = "Comment on this rock..."
         commentBar.sendButton.title = "Post"
         commentBar.delegate = self
-
         tableView.delegate = self
         tableView.dataSource = self
         tableView.keyboardDismissMode = .interactive
+        
         
         let center = NotificationCenter.default
         center.addObserver(self, selector: #selector(keyboardWillBeHidden(note:)), name: UIResponder.keyboardWillHideNotification, object: nil)
@@ -133,18 +133,17 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         {
             let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
             
+            let caption = tableView.dequeueReusableCell(withIdentifier: "CaptionCell") as! CaptionCell
+            
             let user = post["author"] as! PFUser
-            cell.usernameLabel.text = user.username
-            cell.captionLabel.text = post["caption"] as? String
+            caption.usernameLabel.text = user.username
+            caption.captionLabel.text = post["caption"] as? String
             
             let imageFile = post["image"] as! PFFileObject
             let urlString = imageFile.url!
             let url = URL(string: urlString)!
             
             cell.photoView.af.setImage(withURL: url)
-
-
-            
             return cell
         }
         else if indexPath.row <= comments.count
