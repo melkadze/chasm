@@ -10,6 +10,12 @@ import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var usernameLabel: UILabel!
+    
+    @IBAction func backToHome(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,7 +25,8 @@ class ProfileViewController: UIViewController {
     
     func renderProfile() {
         let user = PFUser.current()!
-        print(user.username!)
+        //print(user.username!)
+        usernameLabel.text = user.username!
     }
     
     @IBAction func onLogout(_ sender: Any) {
