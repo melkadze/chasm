@@ -52,7 +52,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         tableView.dataSource = self
         tableView.keyboardDismissMode = .interactive
         
-        
         let center = NotificationCenter.default
         center.addObserver(self, selector: #selector(keyboardWillBeHidden(note:)), name: UIResponder.keyboardWillHideNotification, object: nil)
         
@@ -131,21 +130,32 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         if indexPath.row == 0
         {
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
             
-            let caption = tableView.dequeueReusableCell(withIdentifier: "CaptionCell") as! CaptionCell
-            
             let user = post["author"] as! PFUser
-            caption.usernameLabel.text = user.username
-            caption.captionLabel.text = post["caption"] as? String
+            cell.usernameLabel.text = user.username
+            cell.captionLabel.text = post["caption"] as? String
             
             let imageFile = post["image"] as! PFFileObject
             let urlString = imageFile.url!
             let url = URL(string: urlString)!
-            
             cell.photoView.af.setImage(withURL: url)
             return cell
+            
+            
         }
+        /*
+        else if indexPath.row > captions.count
+        {
+            print("got here", indexPath.row, captions.count)
+            let caption = tableView.dequeueReusableCell(withIdentifier: "CaptionCell") as! CaptionCell
+            let user = post["author"] as! PFUser
+            caption.usernameLabel.text = user.username
+            caption.captionLabel.text = post["caption"] as? String
+            return caption
+        }
+         */
         else if indexPath.row <= comments.count
         {
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell

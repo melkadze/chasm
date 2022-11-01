@@ -18,7 +18,6 @@
 		C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569637C290A56AD00B6FCCA /* FeedViewController.swift */; };
 		C56BFD2E290D9CCC00BDB136 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56BFD2D290D9CCC00BDB136 /* ProfileViewController.swift */; };
 		EA3C75BA290D1C820011424F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C75B9290D1C820011424F /* CommentCell.swift */; };
-		EAA2E5AE290DADB500B6E3AB /* CaptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA2E5AD290DADB500B6E3AB /* CaptionCell.swift */; };
 		F79E3521317B170CA2624B0D /* Pods_Chasm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		C56BFD2D290D9CCC00BDB136 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CF5522FD8CB8A592EF5C3D33 /* Pods_Chasm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chasm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3C75B9290D1C820011424F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		EAA2E5AD290DADB500B6E3AB /* CaptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 				C569637A290A569600B6FCCA /* LoginViewController.swift */,
 				C569637C290A56AD00B6FCCA /* FeedViewController.swift */,
 				61D3506B290B890400D9A164 /* PostCell.swift */,
-				EAA2E5AD290DADB500B6E3AB /* CaptionCell.swift */,
 				EA3C75B9290D1C820011424F /* CommentCell.swift */,
 				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
 				C504927C290A51C300312E40 /* Assets.xcassets */,
@@ -227,7 +224,6 @@
 				C569637B290A569600B6FCCA /* LoginViewController.swift in Sources */,
 				61D3506A290B7E9700D9A164 /* CameraViewController.swift in Sources */,
 				C5049274290A51C200312E40 /* AppDelegate.swift in Sources */,
-				EAA2E5AE290DADB500B6E3AB /* CaptionCell.swift in Sources */,
 				C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */,
 				C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */,
 				61D3506C290B890500D9A164 /* PostCell.swift in Sources */,
