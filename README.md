@@ -50,7 +50,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
 
 **Optional Nice-to-have Stories**
 
-- [ ] View your own profile
+- [x] View your own profile
 - [ ] Leaderboard for quiz game
 - [ ] Follow other users
 
