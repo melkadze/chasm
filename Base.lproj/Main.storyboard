@@ -143,21 +143,33 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkt-T0-4Y5" userLabel="favButton">
+                                                    <rect key="frame" x="243" y="361" width="54" height="31.333333333333314"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="favor-icon"/>
+                                                    <connections>
+                                                        <action selector="favoritePost:" destination="GlN-xM-i6R" eventType="touchUpInside" id="kgc-aP-kw5"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="pJU-49-b3a" firstAttribute="top" secondItem="2g5-gY-Oje" secondAttribute="topMargin" id="G4M-uK-9bc"/>
+                                                <constraint firstAttribute="bottom" secondItem="Nkt-T0-4Y5" secondAttribute="bottom" constant="2.6699999999999999" id="HxR-zs-WLi"/>
                                                 <constraint firstItem="3e3-hI-vQR" firstAttribute="leading" secondItem="2g5-gY-Oje" secondAttribute="leading" constant="20" symbolic="YES" id="Rao-cY-3rg"/>
                                                 <constraint firstItem="RCR-Ab-pOR" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="16" id="RfP-KS-TYL"/>
                                                 <constraint firstItem="RCR-Ab-pOR" firstAttribute="leading" secondItem="3e3-hI-vQR" secondAttribute="trailing" constant="8" id="WBJ-YI-ArN"/>
                                                 <constraint firstItem="3e3-hI-vQR" firstAttribute="leading" secondItem="2g5-gY-Oje" secondAttribute="leading" constant="20" symbolic="YES" id="Yxo-ST-lRp"/>
                                                 <constraint firstAttribute="bottom" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="50" id="Zut-N4-Ppz"/>
                                                 <constraint firstItem="3e3-hI-vQR" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="16" id="arc-O5-qRv"/>
+                                                <constraint firstItem="Nkt-T0-4Y5" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="16" id="dAd-0R-Kkb"/>
                                                 <constraint firstItem="pJU-49-b3a" firstAttribute="leading" secondItem="2g5-gY-Oje" secondAttribute="leadingMargin" id="gH2-nX-cT6"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="pJU-49-b3a" secondAttribute="trailing" id="k2c-iA-m0l"/>
+                                                <constraint firstItem="Nkt-T0-4Y5" firstAttribute="leading" secondItem="RCR-Ab-pOR" secondAttribute="trailing" constant="8" symbolic="YES" id="vfk-9X-LEg"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="captionLabel" destination="RCR-Ab-pOR" id="UOs-SM-LK7"/>
+                                            <outlet property="favButton" destination="Nkt-T0-4Y5" id="Yqn-Ja-V8s"/>
                                             <outlet property="photoView" destination="pJU-49-b3a" id="ai8-pM-74H"/>
                                             <outlet property="usernameLabel" destination="3e3-hI-vQR" id="Fbi-N6-KMn"/>
                                         </connections>
@@ -181,10 +193,6 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="favor-icon" translatesAutoresizingMaskIntoConstraints="NO" id="mvO-Sq-0uO">
-                                                    <rect key="frame" x="331" y="0.0" width="37" height="37"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="oxg-5K-Hhl" firstAttribute="leading" secondItem="hGY-la-8zx" secondAttribute="trailing" constant="8" id="4C5-0G-wqL"/>
@@ -308,7 +316,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="447.82608695652175" y="1431.521739130435"/>
+            <point key="canvasLocation" x="448" y="1755"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oiU-FN-DgA">
@@ -426,7 +434,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eq1-6d-3ag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-417.39130434782612" y="734.51086956521749"/>
+            <point key="canvasLocation" x="-496" y="1754"/>
         </scene>
     </scenes>
     <resources>

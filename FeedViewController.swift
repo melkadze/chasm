@@ -82,6 +82,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
                 self.myRefreshControl.endRefreshing()
             }
         }
+        
     }
     
     func messageInputBar(_ inputBar: MessageInputBar, didPressSendButtonWith text: String) {
@@ -141,6 +142,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let urlString = imageFile.url!
             let url = URL(string: urlString)!
             cell.photoView.af.setImage(withURL: url)
+            
+            
+            //cell.setFavorite(post[indexPath.row]["favorited"] as! Bool)
+           
             return cell
             
             
