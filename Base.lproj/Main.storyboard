@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -113,7 +113,7 @@
                                 <color key="sectionIndexBackgroundColor" red="0.94117647410000005" green="0.89411771299999998" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="395" id="GlN-xM-i6R" customClass="PostCell" customModule="Chasm" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="413" height="395"/>
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="413" height="395"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GlN-xM-i6R" id="2g5-gY-Oje">
                                             <rect key="frame" x="0.0" y="0.0" width="413" height="395"/>
@@ -138,10 +138,12 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkt-T0-4Y5" userLabel="favButton">
-                                                    <rect key="frame" x="243" y="361" width="54" height="31.333333333333314"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="favor-icon"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nkt-T0-4Y5" userLabel="favButton">
+                                                    <rect key="frame" x="243" y="355" width="30" height="31.333333333333314"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" image="favor-icon">
+                                                        <attributedString key="attributedTitle"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="favoritePost:" destination="GlN-xM-i6R" eventType="touchUpInside" id="kgc-aP-kw5"/>
                                                     </connections>
@@ -149,14 +151,14 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="pJU-49-b3a" firstAttribute="top" secondItem="2g5-gY-Oje" secondAttribute="topMargin" id="G4M-uK-9bc"/>
-                                                <constraint firstAttribute="bottom" secondItem="Nkt-T0-4Y5" secondAttribute="bottom" constant="2.6699999999999999" id="HxR-zs-WLi"/>
+                                                <constraint firstAttribute="bottom" secondItem="Nkt-T0-4Y5" secondAttribute="bottom" constant="8.6699999999999999" id="HxR-zs-WLi"/>
                                                 <constraint firstItem="3e3-hI-vQR" firstAttribute="leading" secondItem="2g5-gY-Oje" secondAttribute="leading" constant="20" symbolic="YES" id="Rao-cY-3rg"/>
                                                 <constraint firstItem="RCR-Ab-pOR" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="16" id="RfP-KS-TYL"/>
                                                 <constraint firstItem="RCR-Ab-pOR" firstAttribute="leading" secondItem="3e3-hI-vQR" secondAttribute="trailing" constant="8" id="WBJ-YI-ArN"/>
                                                 <constraint firstItem="3e3-hI-vQR" firstAttribute="leading" secondItem="2g5-gY-Oje" secondAttribute="leading" constant="20" symbolic="YES" id="Yxo-ST-lRp"/>
                                                 <constraint firstAttribute="bottom" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="50" id="Zut-N4-Ppz"/>
                                                 <constraint firstItem="3e3-hI-vQR" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="16" id="arc-O5-qRv"/>
-                                                <constraint firstItem="Nkt-T0-4Y5" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="16" id="dAd-0R-Kkb"/>
+                                                <constraint firstItem="Nkt-T0-4Y5" firstAttribute="top" secondItem="pJU-49-b3a" secondAttribute="bottom" constant="10" id="dAd-0R-Kkb"/>
                                                 <constraint firstItem="pJU-49-b3a" firstAttribute="leading" secondItem="2g5-gY-Oje" secondAttribute="leadingMargin" id="gH2-nX-cT6"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="pJU-49-b3a" secondAttribute="trailing" id="k2c-iA-m0l"/>
                                                 <constraint firstItem="Nkt-T0-4Y5" firstAttribute="leading" secondItem="RCR-Ab-pOR" secondAttribute="trailing" constant="8" symbolic="YES" id="vfk-9X-LEg"/>
@@ -170,7 +172,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CommentCell" rowHeight="47" id="o3o-11-mla" customClass="CommentCell" customModule="Chasm" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="445" width="413" height="47"/>
+                                        <rect key="frame" x="0.0" y="439.66666603088379" width="413" height="47"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="o3o-11-mla" id="cNA-A6-6bN">
                                             <rect key="frame" x="0.0" y="0.0" width="413" height="47"/>
@@ -205,7 +207,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" rowHeight="97" id="V1L-Eh-gyh">
-                                        <rect key="frame" x="0.0" y="492" width="413" height="97"/>
+                                        <rect key="frame" x="0.0" y="486.66666603088379" width="413" height="97"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="V1L-Eh-gyh" id="Ckf-BZ-Hr5">
                                             <rect key="frame" x="0.0" y="0.0" width="413" height="97"/>
@@ -372,7 +374,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmB-Xd-adr">
-                                <rect key="frame" x="168.33333333333334" y="582" width="77.333333333333343" height="34.333333333333371"/>
+                                <rect key="frame" x="172.33333333333334" y="585.33333333333337" width="69.333333333333343" height="31"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Logout"/>
