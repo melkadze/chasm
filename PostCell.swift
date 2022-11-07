@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class PostCell: UITableViewCell {
 
@@ -20,7 +21,24 @@ class PostCell: UITableViewCell {
     
     
     @IBAction func favoritePost(_ sender: Any) {
+        // Does not work currently
         
+        let favorite = PFObject(className: "Favorites")
+        
+        //favorite["post"] = selectedPost!
+        favorite["user"] = PFUser.current()!
+        
+        //selectedPost.add(favorite, forKey: "favorite")
+        
+        favorite.saveInBackground { sucess, error in
+            if(sucess){
+                //selectedPost.setFavorite(true)
+                print("Favorite set successfully!")
+            }
+            else{
+                print("Error! Favorite set failed")
+            }
+        }
     }
     
     var favoriteed:Bool = false
