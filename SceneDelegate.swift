@@ -22,9 +22,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if PFUser.current() != nil
         {
             let main = UIStoryboard(name: "Main", bundle: nil)
-            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+           //for switching view after log in and implementing tab view
+            let MainTabBarController = main.instantiateViewController(withIdentifier: "MainTabBarController")
             
-            window?.rootViewController = feedNavigationController
+            /*
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+             */
+            
+            /*window?.rootViewController = feedNavigationController*/
+            window?.rootViewController = MainTabBarController
         }
     }
 
