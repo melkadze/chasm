@@ -246,6 +246,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="F5s-Z7-Ehm">
                         <barButtonItem key="leftBarButtonItem" title="My Chasm" id="Ued-Qt-OeL">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="6sS-hy-g84" kind="popoverPresentation" popoverAnchorBarButtonItem="Ued-Qt-OeL" id="UJj-in-Iuu">
                                     <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
@@ -253,6 +254,7 @@
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Photo" id="j6t-9o-LPY">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="qoD-gl-ZZN" kind="presentation" id="zvX-tQ-nWd"/>
                             </connections>
@@ -274,33 +276,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rockplaceholderog" translatesAutoresizingMaskIntoConstraints="NO" id="Ab9-3a-KZg">
-                                <rect key="frame" x="17" y="49" width="377" height="377"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="linkColor"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="249" image="rockplaceholderog" translatesAutoresizingMaskIntoConstraints="NO" id="Ab9-3a-KZg">
+                                <rect key="frame" x="17" y="50.666666666666657" width="377" height="375.33333333333337"/>
+                                <color key="backgroundColor" red="0.94117647410000005" green="0.91454948432501681" blue="0.71649888310884557" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.94117647410000005" green="0.89411771299999998" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="aRe-h0-VGH" appends="YES" id="HBq-SO-AFN"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA7-L9-An1">
-                                <rect key="frame" x="19" y="10" width="86" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
-                                <connections>
-                                    <action selector="onCancelButton:" destination="qoD-gl-ZZN" eventType="touchUpInside" id="5wd-5a-Lps"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Caption your rock!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QtQ-nj-cBY">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Caption your rock!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QtQ-nj-cBY">
                                 <rect key="frame" x="20" y="434" width="374" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96611279250000004" green="0.71013564429999998" blue="0.34424833370000002" alpha="0.20281456952119206" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xiz-hb-TbY">
-                                <rect key="frame" x="47" y="555" width="321" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xiz-hb-TbY">
+                                <rect key="frame" x="168" y="555" width="78" height="34.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Submit">
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -309,9 +301,41 @@
                                     <action selector="onSubmitButton:" destination="qoD-gl-ZZN" eventType="touchUpInside" id="4cL-RT-ou0"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When you're done press submit!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aTM-qn-9P7">
+                                <rect key="frame" x="20" y="505" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sA7-L9-An1">
+                                <rect key="frame" x="0.0" y="8" width="114" height="34"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Cancel"/>
+                                <connections>
+                                    <action selector="onCancelButton:" destination="qoD-gl-ZZN" eventType="touchUpInside" id="5wd-5a-Lps"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8oA-hm-ENw"/>
                         <color key="backgroundColor" red="0.94117647410000005" green="0.89411771299999998" blue="0.77254903320000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="aTM-qn-9P7" firstAttribute="leading" secondItem="8oA-hm-ENw" secondAttribute="leading" constant="20" id="0Ly-uS-ZFt"/>
+                            <constraint firstItem="sA7-L9-An1" firstAttribute="top" secondItem="8oA-hm-ENw" secondAttribute="top" constant="8" id="246-eZ-00f"/>
+                            <constraint firstItem="QtQ-nj-cBY" firstAttribute="top" secondItem="Ab9-3a-KZg" secondAttribute="bottom" constant="8" symbolic="YES" id="4Gi-qz-6Yc"/>
+                            <constraint firstItem="QtQ-nj-cBY" firstAttribute="trailing" secondItem="Ab9-3a-KZg" secondAttribute="trailing" id="5jY-j9-yIQ"/>
+                            <constraint firstItem="aTM-qn-9P7" firstAttribute="top" secondItem="QtQ-nj-cBY" secondAttribute="bottom" constant="37" id="5om-Un-uiG"/>
+                            <constraint firstItem="Xiz-hb-TbY" firstAttribute="top" secondItem="aTM-qn-9P7" secondAttribute="bottom" constant="29" id="CZ0-fq-bwJ"/>
+                            <constraint firstAttribute="bottom" secondItem="QtQ-nj-cBY" secondAttribute="bottom" constant="248" id="Cf1-Oj-XgI"/>
+                            <constraint firstItem="sA7-L9-An1" firstAttribute="leading" secondItem="c8S-cS-bcn" secondAttribute="leading" id="RkX-rV-Qy7"/>
+                            <constraint firstItem="Ab9-3a-KZg" firstAttribute="leading" secondItem="8oA-hm-ENw" secondAttribute="leading" constant="17" id="TUO-dG-UCQ"/>
+                            <constraint firstItem="QtQ-nj-cBY" firstAttribute="centerX" secondItem="Xiz-hb-TbY" secondAttribute="centerX" id="c2T-ZO-lDl"/>
+                            <constraint firstItem="8oA-hm-ENw" firstAttribute="trailing" secondItem="aTM-qn-9P7" secondAttribute="trailing" constant="20" id="cFg-qm-q5U"/>
+                            <constraint firstItem="QtQ-nj-cBY" firstAttribute="trailing" secondItem="aTM-qn-9P7" secondAttribute="trailing" id="gEk-yP-o4A"/>
+                            <constraint firstItem="8oA-hm-ENw" firstAttribute="trailing" secondItem="Ab9-3a-KZg" secondAttribute="trailing" constant="20" id="hx8-5C-Gtp"/>
+                            <constraint firstItem="8oA-hm-ENw" firstAttribute="trailing" secondItem="sA7-L9-An1" secondAttribute="trailing" constant="300" id="u4D-v9-wee"/>
+                            <constraint firstItem="QtQ-nj-cBY" firstAttribute="leading" secondItem="aTM-qn-9P7" secondAttribute="leading" id="wr7-Ni-d5f"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="commentField" destination="QtQ-nj-cBY" id="U5U-8B-Gai"/>
@@ -325,7 +349,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="448" y="1755"/>
+            <point key="canvasLocation" x="447.82608695652175" y="1754.3478260869567"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oiU-FN-DgA">
@@ -431,9 +455,6 @@
     <resources>
         <image name="favor-icon" width="30" height="30"/>
         <image name="rockplaceholderog" width="375.33334350585938" height="375.33334350585938"/>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
