@@ -42,6 +42,7 @@ the top 5 rocks that match those descriptions along with photos and additional i
 - [ ] Ability to tag pictures with labels
 - [x] Caption pictures
 - [ ] Like pictures
+- [x] Tab navigation
 - [x] Comment on pictures
 - [ ] Search for specific tags
 - [ ] Identify something based on information submitted
