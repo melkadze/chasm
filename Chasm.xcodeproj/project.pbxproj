@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616125F529206AAB00E41A51 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616125F429206AAB00E41A51 /* QuizViewController.swift */; };
+		616125F729206C6700E41A51 /* LeadboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616125F629206C6700E41A51 /* LeadboardViewController.swift */; };
 		61D3506A290B7E9700D9A164 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D35069290B7E9700D9A164 /* CameraViewController.swift */; };
 		61D3506C290B890500D9A164 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D3506B290B890400D9A164 /* PostCell.swift */; };
 		C5049274290A51C200312E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5049273290A51C200312E40 /* AppDelegate.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		616125F429206AAB00E41A51 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		616125F629206C6700E41A51 /* LeadboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadboardViewController.swift; sourceTree = "<group>"; };
 		61D35069290B7E9700D9A164 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		61D3506B290B890400D9A164 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		7909B9DA78B7DCDB2982F140 /* Pods-Chasm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chasm.release.xcconfig"; path = "Target Support Files/Pods-Chasm/Pods-Chasm.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				C504927E290A51C300312E40 /* LaunchScreen.storyboard */,
 				C504927C290A51C300312E40 /* Assets.xcassets */,
 				C5049281290A51C300312E40 /* Info.plist */,
+				616125F429206AAB00E41A51 /* QuizViewController.swift */,
+				616125F629206C6700E41A51 /* LeadboardViewController.swift */,
 			);
 			name = chasm;
 			sourceTree = "<group>";
@@ -222,11 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C569637B290A569600B6FCCA /* LoginViewController.swift in Sources */,
+				616125F729206C6700E41A51 /* LeadboardViewController.swift in Sources */,
 				61D3506A290B7E9700D9A164 /* CameraViewController.swift in Sources */,
 				C5049274290A51C200312E40 /* AppDelegate.swift in Sources */,
 				C569637D290A56AD00B6FCCA /* FeedViewController.swift in Sources */,
 				C5049276290A51C200312E40 /* SceneDelegate.swift in Sources */,
 				61D3506C290B890500D9A164 /* PostCell.swift in Sources */,
+				616125F529206AAB00E41A51 /* QuizViewController.swift in Sources */,
 				C56BFD2E290D9CCC00BDB136 /* ProfileViewController.swift in Sources */,
 				EA3C75BA290D1C820011424F /* CommentCell.swift in Sources */,
 			);
