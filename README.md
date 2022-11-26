@@ -30,30 +30,18 @@ the top 5 rocks that match those descriptions along with photos and additional i
 
 ## Product Spec
 
-### 1. User Stories (Required and Optional)
-
-**Required Must-have Stories**
+### 1. User Stories 
 
 - [x] Login
 - [x] Sign up
 - [x] Sign Out
 - [x] Ability to post pictures
 - [x] Ability to post to Feed
-- [ ] Ability to tag pictures with labels
 - [x] Caption pictures
-- [ ] Like pictures
 - [x] Tab navigation
 - [x] Comment on pictures
-- [ ] Search for specific tags
-- [ ] Identify something based on information submitted
-- [ ] Quiz game
 - [x] Creation of Loading Screen and App Icon Assets
-
-**Optional Nice-to-have Stories**
-
 - [x] View your own profile
-- [ ] Leaderboard for quiz game
-- [ ] Follow other users
 
 ### 2. Screen Archetypes
 
@@ -179,11 +167,3 @@ the top 5 rocks that match those descriptions along with photos and additional i
       - (Update/PUT) Update user profile image
       - (Update/GET) Count of Followed Users
       - (Update/GET) Amount of Likes on Profile
-  
- Base Url -
-  | HTTP Verb     | Endpoint | Description |
-  | ------------- | -------- | ------------|
-  
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
